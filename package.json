@@ -1,0 +1,35 @@
+{
+  "name": "nodax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodax": "node ./nodax"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waqas740/nodax.git"
+  },
+  "author": "Waqas iqbal",
+  "license": "ISC",
+  "bin": {
+    "nodax": "./nodax"
+  },
+  "bugs": {
+    "url": "https://github.com/waqas740/nodax/issues"
+  },
+  "homepage": "https://github.com/waqas740/nodax#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "ejs": "^3.0.1",
+    "fs-extra": "^8.1.0",
+    "js-beautify": "^1.10.3",
+    "lodash": "^4.17.15",
+    "minimist": "^1.2.0",
+    "pluralize": "^8.0.0",
+    "prompt": "^1.0.0",
+    "sorted-object": "^2.0.1",
+    "yargs": "^15.1.0"
+  }
+}

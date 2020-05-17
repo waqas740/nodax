@@ -1,0 +1,15 @@
+/node_modules/
+/improvement
+/bower_components/
+/app/
+/controllers
+/routes
+/models
+.nodaxrc
+npm-debug.log
+/npm-debug.log.*
+.idea
+/logs/
+/bin/
+/app/
+/nodax-app/
