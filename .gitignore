@@ -4,6 +4,7 @@
 /app/
 /controllers
 /routes
+/views
 /models
 .nodaxrc
 npm-debug.log

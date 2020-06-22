@@ -14,6 +14,7 @@ const cli = yargs
     .command('init:controller', 'Initializes controllers Folder', init)
     .command('init:route', 'Initializes routes Folder', init)
     .command('init:model', 'Initializes models Folder', init)
+    .command(["generate:rcv", "generate:RCV", "generate"], 'Generates controller ,route & view files', crud)
     .command(["generate:rc", "generate:RC"], 'Generates controller & route file', crud)
     .command(["generate:controller", "generate:Controller"], 'Generates controller file', crud)
     .command(["generate:route", "generate:Route"], 'Generates route file', crud)

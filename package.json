@@ -1,6 +1,6 @@
 {
   "name": "nodax",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -27,8 +27,11 @@
     "js-beautify": "^1.10.3",
     "lodash": "^4.17.15",
     "minimist": "^1.2.0",
+    "mysql2": "^2.1.0",
     "pluralize": "^8.0.0",
+    "pretty": "^2.0.0",
     "prompt": "^1.0.0",
+    "sequelize": "^5.21.9",
     "sorted-object": "^2.0.1",
     "yargs": "^15.1.0"
   }
